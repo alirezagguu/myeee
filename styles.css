@@ -18,47 +18,93 @@
 }
 
 #lebrock{
+    text-shadow: 10px 10px white;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 pre{
-    font-family: cursive;
+    font-family: Quicksand;
 }
 
 #spn{
     border-radius: 5%;
-    font-family: cursive;
+    font-family: lucida console;
     background-color: chartreuse;
     color: black;
 }
 
 #listman{
     display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
-            gap: 10px; /* Add some space between items */
-            list-style-type: none; /* Remove default list styling */
-            padding: 0;
-            margin: 0;
-            width: 100%; /* Full width of the container */
-            max-width: 1000px; /* Optional: limit the max width of the ul */
-            box-sizing: border-box;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    max-width: 1000px; 
+    box-sizing: border-box;
 }
 
 li{
-    background: linear-gradient(blue, cyan);
-    border: 1px solid darkblue;
+    background: radial-gradient(blue, purple);
     border-radius: 7px;
     height: 250px;
-    width: 100%; /* Take full width of the grid cell */
+    width: 100%; 
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
 }
-body{
+
+#boti{
     align-items: center;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    background: linear-gradient(45deg, red, blue);
+}
+
+#name{
+    font-family: Quicksand;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.425), rgba(0, 0, 255, 0.322));
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+}
+#name h1{
+    display: inline-block;
+    vertical-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+#aaa{
+    display: inline;
+    width: 0px;
+}
+
+header{
+    margin-top:100px ;
+
+}
+
+header a{
+    background-color: rgb(173, 13, 212);
+    display: inline-block;
+    padding:12px;
+    border-radius: 16px;
+    box-shadow: 7px 6px 23px red, -6px -6px 23px rgb(51, 5, 219);
+    font-family: Quicksand;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    border: 1px solid rgba(97, 137, 247, 0.384);
 }
