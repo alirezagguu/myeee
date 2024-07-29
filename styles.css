@@ -2,7 +2,7 @@ body{
     margin: 0%;
     background: linear-gradient(rgb(74, 75, 75), rgb(0, 0, 0));
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 #header-container{
