@@ -14,6 +14,7 @@ body{
     justify-content: center;
     background-color: rgb(17, 17, 17);
     height: 35px;
+    bottom: env(safe-area-inset-bottom, 0);
 }
 
 button{
