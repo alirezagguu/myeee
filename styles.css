@@ -1,5 +1,9 @@
 body{
     margin: 0%;
+    background: linear-gradient(rgb(74, 75, 75), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
 }
 
 #header-container{
@@ -10,7 +14,7 @@ body{
     margin: 10px;
     border-radius: 18px;
     box-shadow: 5px 5px 30px rgba(131, 130, 130, 0.048), -5px -5px 40px rgba(5, 5, 5, 0.096);
-    margin-top: 89dvh;
+    margin-top: 89vh;
     justify-content: center;
     background-color: rgb(17, 17, 17);
     height: 35px;
